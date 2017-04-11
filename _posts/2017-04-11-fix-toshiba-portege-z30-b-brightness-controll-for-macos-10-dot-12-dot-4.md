@@ -13,9 +13,13 @@ share:
 
 macOS 10.12对于屏幕亮度的控制机制变化很大，10.12.3时还可以通过安装键盘映射软件（以前讲过的Karabiner Elements）来解决，到了10.12.4这个办法也不灵了，新的解决方案如下：
 
-## 准备
+## 清理环境
 
-移除已安装的ACPIBacklight.kext 或 IntelBacklight.kext
+- 移除已安装的ACPIBacklight.kext 或 IntelBacklight.kext
+- 去除ACPI中与PLNF有关的项，例如：Clover中的AddPNLF_1000000，再比如graphics_PNLF.txt补丁等
+- 确保已经将显卡设备名改为IGPU
+
+## 准备
 
 下载两个项目并编译guide.git：
 
@@ -50,3 +54,5 @@ make
 
 注：我开始忘了移除IntelBacklight.kext，所以，虽然看到了小太阳，但是屏幕亮度不发生变化，移除了就好了。
 
+
+更详细的内容参见：[[Guide] Laptop backlight control using AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
