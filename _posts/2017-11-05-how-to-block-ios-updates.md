@@ -11,7 +11,9 @@ comments:
 share: 
 ---
 自从将手机升级到11.2以后，屏幕一点亮就报下面信息（不停得报，烦得要死）：
+
 ![iOS升级提示](/upload/images/ios11_update_error.jpg)
+
 我估计这是苹果的一个Bug!
 
 *解决办法：*
