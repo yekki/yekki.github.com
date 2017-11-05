@@ -15,6 +15,7 @@ share:
 我估计这是苹果的一个Bug!
 
 *解决办法：*
+
 用iOS自带的safari浏览器打开下面的描述文件，重新启动手机即可！
 [tvos11betaprofile.mobileconfig](/upload/download/tvos11betaprofile.mobileconfig)
 注：亲测有效！
