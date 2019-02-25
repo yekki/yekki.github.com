@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how to merge images"
+title: "如何拼接多个图片到一个大图片"
 modified: 2019-02-25 15:44:51 +0800
 tags: [图片]
 image:
